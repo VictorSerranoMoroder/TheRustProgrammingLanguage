@@ -1,0 +1,15 @@
+Rust ofrece las siguientes ventajas que lo hacen ideal para una amplia gama de aplicaciones:
+
+Seguridad de tipos: el compilador garantiza que no se aplicará ninguna operación a una variable de un tipo incorrecto.
+Seguridad de memoria: los punteros de Rust (conocidos como referencias) siempre hacen referencia a la memoria válida.
+Sin carrera de datos: El comprobador de préstamos de Rust garantiza la seguridad para subprocesos asegurándose de que varias partes de un programa no puedan mutar el mismo valor al mismo tiempo.
+Abstracciones de costo cero: Rust permite el uso de conceptos generales, como la iteración, las interfaces y la programación funcional, con un costo de rendimiento mínimo o nulo. Las abstracciones funcionan tan bien como si hubiera escrito el código subyacente a mano.
+Entorno de ejecución mínimo: Rust tiene un entorno de ejecución mínimo (y opcional). Con el fin de administrar la memoria de forma eficaz, el lenguaje tampoco tiene ningún recolector de elementos no utilizados. De este modo, Rust se parece más a lenguajes como C y C++.
+Destinos sin sistema operativo: Rust puede tener como destino la programación insertada y sin sistema operativo, lo que lo hace adecuado para escribir un kernel de sistema operativo o controladores de dispositivo.
+
+Cuándo se debe usar Rust
+El lenguaje Rust tiene numerosos puntos a favor que se deben tener en cuenta al elegir el mejor lenguaje para un proyecto:
+
+Rust permite controlar el rendimiento y el consumo de recursos de los programas y bibliotecas escritos en el lenguaje al mismo nivel que C y C++, al tiempo que mantiene la memoria protegida, ya que elimina todas las clases de errores comunes de manera predeterminada.
+Rust tiene características de abstracción muy completas que permiten a los desarrolladores codificar muchos de los aspectos invariables de sus programas en código, que luego el compilador se encarga de comprobar en lugar de depender de convenciones o documentaciones. Esta característica suele dar lugar a la impresión de que "si se compila, funciona".
+Rust tiene herramientas integradas para compilar, probar, documentar y compartir código, así como un ecosistema completo de herramientas y bibliotecas de terceros. Gracias a estas herramientas, algunas tareas que son difíciles en algunos lenguajes, como crear dependencias, resultan fáciles de llevar a cabo y productivas en Rust.
