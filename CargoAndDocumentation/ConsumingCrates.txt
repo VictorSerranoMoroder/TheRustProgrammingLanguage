@@ -1,0 +1,12 @@
+We can download other peoples crates in: crates.io
+
+Search for any package and copy the line to the Cargo.toml
+
+[dependencies]
+rand = "0.3.12"
+
+And then cargo build
+
+you can use the crates in your code using: (let's use rand as an example)
+extern crate rand;
+use rand::Rng;
