@@ -1,0 +1,14 @@
+
+TODO: Ownership, Borrowing and Lifetime
+
+Reference Counted Variables: Rc
+Atomic Reference Counted Variables: Arc
+Mutual Exclusion for Thread Safe Mutability: Arc + Mutex
+    
+Summary:
+    If you want to pass a variable around use Rc
+    If you want to pass a variable between different threads
+        And only read from it use Arc
+    If you want to pass a variable between differente threads
+        And you want to modify it use Arc + Mutex
+

@@ -1,0 +1,1 @@
+C:\Users\vserranom\Desktop\Estudios\Rust\TheRustProgrammingLanguage\LifetimeAndMemory\LifeTimeInStructureImplementation\target\debug\LifeTimeInStructureImplementation.exe: C:\Users\vserranom\Desktop\Estudios\Rust\TheRustProgrammingLanguage\LifetimeAndMemory\LifeTimeInStructureImplementation\src\main.rs
